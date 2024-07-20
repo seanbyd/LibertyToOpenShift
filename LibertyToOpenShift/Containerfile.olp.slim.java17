@@ -11,7 +11,7 @@ LABEL \
   name="LibertyToOpenShift" \
   version="$VERSION-$REVISION" \
   summary="Sample Open Liberty app for deploying to OpenShift" \
-  description="This servlet has been writtent to help test running an Open Liberty app in OpenShift"
+  description="This servlet has been written to help test running an Open Liberty app in OpenShift"
 
 COPY --chown=1001:0 target/server.xml /config/
 RUN features.sh
